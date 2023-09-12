@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* 
+body {
+    overflow-x: hidden;
+} */
+
+
+#minicircle{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 99999;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.6s;
+}
+
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+
+#hero{
+    width: 100%;
+    min-height: 105vh;
+    background-color: black;
+    color: #fff;
+    position: relative;
+}
+#nav{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+ #nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#nav h4{
+    margin-right: 10px;
+}
+
+#manu{
+    display: flex;
+}
+
+#headings{
+    margin-top: 15vh;
+}
+
+#headings h1{
+    opacity: .7;
+    line-height: 1;
+    font-size: 10vw;
+    font-weight: 900;
+    /* font-family: "General Sans Medium"; */
+    margin-left: 3rem;
+}
+
+#headings #secndh1{
+    margin-left: 180px;
+}
+/* 
+#headings h5{
+    margin-left: 52vw;
+} */
+
+.blocktexth1{
+    width: fit-content;
+}
+
+.blocktexth1 h5{
+    text-align: right;
+    font-size: 15px;
+}
+
+#chottiheading{
+    /* width: 100%; */
+    margin-top: 80px;
+    margin-right: 2vw;
+}
+
+#chottiheading h5{
+    font-size: 1vw;
+    text-align: right;
+    margin-top: 10px;
+}
+
+#herofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px;
+    width: 100%;
+    position: absolute;
+}
+
+#herofooter a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    bottom: 50%;
+    padding: 0 1vw;
+}
+
+#iconeset{
+    display: flex;
+    gap: 7px;
+    margin-right: 2vw;
+}
+#herofooter .circle{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: #9b9595;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#second{
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 150px;
+    padding-left: 2vw;
+    padding-right: 7vw;
+}
+
+.elem{
+    border-top: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.4vw 2.5vw;
+    padding-right: 0;
+    width: 100%;
+    position: relative;
+}
+
+.elem h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+.elem h5{
+    align-items: right;
+}
+
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    z-index: 999;
+    height: 140%;
+    position: absolute;
+    opacity: 0;
+    /* display: none; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#about{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20vh 5vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+    height: 100vh;
+    padding-left: 27vw;
+}
+
+#about img{
+    height: 250px;
+    
+}
+
+#textabout{
+    width: 25rem;
+    font-size: 18px;
+    position: relative;
+}
+#textabout h5{
+    opacity: .7;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#textabout p{
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+#textabout a{
+    padding: 3px 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 100px;
+    position: absolute;
+    transition: .7s;
+    font-size: 15px;
+}
+
+#textabout a:hover{
+    background-color: white;
+    color: black;
+}
+
+#subcribe{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 9vw;
+}
+
+#subcribe h5{
+    opacity: .7;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+#subcribe a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+#Footerleft{
+    display: flex;
+    gap: 20px;
+}
+
+#Footerleft h5{
+    font-size: 15px;
+}
+
+#Footerright{
+    display: flex;
+    gap: 28px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
